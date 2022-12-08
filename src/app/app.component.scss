@@ -1,7 +1,6 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~bootstrap/scss/bootstrap.scss";
 
-
 header {
   .title-bell-icon {
     display: flex;
@@ -16,6 +15,16 @@ header {
 .notification-manager {
   display: flex;
   align-items: center;
+  flex-direction: column;
   height: 50vh;
   justify-content: center;
+  .notification-count-display {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    .notification-title {
+      margin-right: 1rem;
+    }
+  }
 }

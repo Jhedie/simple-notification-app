@@ -1,9 +1,13 @@
 <header>
   <div class="title-bell-icon">
-    <h1>Simple Notification App</h1>
+    <h1>{{ title }}</h1>
     <app-notification-bell-component></app-notification-bell-component>
   </div>
 </header>
 <div class="notification-manager">
+  <div class="notification-count-display">
+    <span class="notification-title">Notifications: </span>
+    <span class="count">{{ notificationCount }}</span>
+  </div>
   <app-notification-manager-component></app-notification-manager-component>
 </div>
