@@ -1,4 +1,4 @@
-# SimpleNotificationApp
+# Simple Notification App
 
 This project explores the concepts of Components communication using component @Input(s) and @Output(s)
 
