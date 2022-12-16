@@ -13,3 +13,12 @@ $primary: #2b3a55;
     margin-right: 2rem;
   }
 }
+.notification-count-display {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  .notification-title {
+    margin-right: 1rem;
+  }
+}

@@ -18,13 +18,4 @@ header {
   flex-direction: column;
   height: 50vh;
   justify-content: center;
-  .notification-count-display {
-    margin-top: 5rem;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    .notification-title {
-      margin-right: 1rem;
-    }
-  }
 }

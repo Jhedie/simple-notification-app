@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Simple Notification App';
 
-  notificationCount = 0;
+  notificationsCount = 0;
 }
